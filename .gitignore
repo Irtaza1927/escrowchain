@@ -26,12 +26,9 @@ indexer/db.json
 # scratch workspace (local only)
 scratch/
 
-# stale markdown drafts superseded by docs/Technical_Report.docx
-docs/architecture.md
-docs/demo-guide.md
-docs/gas-evaluation.md
-docs/technical-report.md
-docs/threat-model.md
+# local-only docs (not distributed via repo)
+docs/
+
 
 # system / editor
 .DS_Store
