@@ -1,0 +1,14 @@
+# gas baseline measurements
+# recorded from automated test run with hardhat-gas-reporter (solc 0.8.20, runs: 200)
+
+| operation            | min gas | max gas | avg gas | calls | notes                          |
+|----------------------|---------|---------|---------|-------|--------------------------------|
+| createJob()          | 173,961 | 191,361 | 190,020 | 16    | client creates and funds job   |
+| addMilestone()       | 217,749 | 217,905 | 217,784 | 9     | client adds milestone to job   |
+| submitMilestone()    | 91,951  | 126,155 | 120,350 | 6     | freelancer submits ipfs cid    |
+| approveMilestone()   | 104,622 | 104,622 | 104,622 | 1     | client approves, eth released  |
+| openDispute()        | 233,392 | 233,678 | 233,484 | 9     | participant opens dispute      |
+| resolveDispute()     | 197,917 | 229,105 | 218,709 | 3     | arbiter resolves with split    |
+| assignFreelancer()   | 58,382  | 58,382  | 58,382  | 6     | client assigns freelancer      |
+| cancelJob()          | 67,538  | 67,538  | 67,538  | 2     | client cancels and gets refund |
+

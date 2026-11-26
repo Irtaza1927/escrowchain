@@ -1,0 +1,22 @@
+{
+  "name": "escrow-dapp",
+  "version": "1.0.0",
+  "description": "freelance escrow dapp - blockchain empowerment project fall 2026",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "test:gas": "npx hardhat test --reporter gas",
+    "deploy:ganache": "npx hardhat run scripts/deploy.js --network ganache",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network hardhat",
+    "node": "npx hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}

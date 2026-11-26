@@ -1,0 +1,41 @@
+# dependencies
+node_modules/
+frontend/node_modules/
+indexer/node_modules/
+scratch/node_modules/
+
+# environment variables (NEVER commit these)
+.env
+.env.local
+frontend/.env
+frontend/.env.local
+
+# hardhat build artifacts
+artifacts/
+cache/
+
+# gas report raw output
+gas-report/gas-report.txt
+
+# react build output
+frontend/build/
+
+# indexer local database
+indexer/db.json
+
+# scratch workspace (local only)
+scratch/
+
+# stale markdown drafts superseded by docs/Technical_Report.docx
+docs/architecture.md
+docs/demo-guide.md
+docs/gas-evaluation.md
+docs/technical-report.md
+docs/threat-model.md
+
+# system / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/

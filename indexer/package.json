@@ -1,0 +1,12 @@
+{
+  "name": "escrow-indexer",
+  "version": "1.0.0",
+  "description": "off-chain event indexer for the escrow dapp. listens to blockchain events and saves them locally.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ethers": "^6.9.0"
+  }
+}
